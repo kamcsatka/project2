@@ -1,0 +1,164 @@
+@font-face {
+	font-family: 'font1';
+	src: url(Roboto-Regular.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'font2';
+	src: url(Roboto-LightItalic.ttf) format('truetype');
+}
+
+* {
+	color: white;
+	font-family: 'font1', Wingdings;
+}
+.flex1 {
+	font-family: 'font1', Wingdings;
+	padding-left: 8em;
+	padding-right: 8em;
+	padding-bottom: 6em;
+	background-color: #1F2937;
+	color: white;
+}
+.header1 {
+	display: flex;
+	padding-bottom: 4em;
+}
+.header2 {
+	font-size: 24px;
+	color: #F9FAF8;
+	flex-grow: 1;
+}
+.flex2{
+	display: flex;
+}
+.parag {
+	font-size: 48px;
+	color: #F9FAF8;
+	flex-grow: 1;
+}
+.parag1 {
+	font-weight: 900;
+}
+.parag2{
+	font-size: 18px;
+	color: #E5E7EB;
+}
+.linkek {
+	text-align: right;
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+h1{
+	color: white;
+}
+#salami{
+	height: 300px;
+	width: auto;
+	text-align: right;
+	padding-top: 1.5em;
+}
+#button {
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	background-color: #3882F6;
+	border-radius: 20%;
+}
+
+#sri {
+	text-align: center;
+	font-size: 36px;
+	font-weight: 900;
+	color: #1F2937;
+}
+.pics {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	gap: 16px;
+	height: 100px;
+	border-radius: 10%;
+	color: #1F2937;
+}
+.pics2 {
+	width: 150px;
+	height: auto;
+	border-radius: 10%;
+	color: #1F2937;
+}
+.flex3 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 250px;
+	padding-right: 250px;
+	margin: 20px;
+	background-color: #E5E7EB;
+	color: #1F2937;
+	display: flex;
+	flex-direction:column;
+}
+
+.flex4 {
+	display: flex;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 80px;
+	padding-right: 80px;
+	background-color: #3882F6;
+	color: white;
+	border-radius: 10%;
+}
+
+.p1{
+	font-weight:bold;
+}
+
+.flex5 {
+	background-color: #1F2937;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+}
+#quote {
+	color: #1F2937;
+	font-family: 'font2', Wingdings;
+	font-size: 36px;
+}
+#who {
+	color: #1F2937;
+	text-align:right;
+	font-weight: bold;
+	font-size: 25px;
+
+}
+#button2 {
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #3882F6;
+	border-radius: 20%;
+	border: 1px solid white;
+}
+.button22 {
+	text-align: right;
+}
+.cta {
+	flex-grow: 1;
+}
